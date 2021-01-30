@@ -5,10 +5,11 @@ Aby strona działała poprawnię, należy odpalić plik index.html na serwerze l
 
 albo kliknąć w ten link https://nforius.github.io/project1-Oldbook/
 
-Funkcje:
+Projekt jest w budowanie jednak posiada następujące funkcje:
 
 -Dodawanie i usuwanie postów
 
--Zmiana avatara po kliknięciu na mój profil
+-Zmiana zdjęcia profilu po kliknięciu na :Mój profil"
 
--statystyki covid 19
+-statystyki covid 19 (fetch-API)
+
