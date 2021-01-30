@@ -204,7 +204,7 @@
        <div class="my-profile-inf-image">
         <img src="profile.png" class="" id="prof-inf-img">
         <form class="change-picture" method="POST" action="/" enctype="multipart/form-data">
-            <input type="file" name="getFile" id="getFile" accept="image/*" onChange="previewImage(); ">
+            <input type="file" name="getFile" id="getFile" accept="image/*" onChange="ChangeImage(); ">
          </form>
     </div>
     <div class="personal-data-container">
@@ -220,7 +220,7 @@
 
 
 
-         function previewImage() {
+         function ChangeImage() {
     var file = document.getElementById("getFile").files;
     if (file.length > 0) {
         var fileReader = new FileReader();
